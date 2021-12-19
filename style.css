@@ -1,0 +1,32 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+.block{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+
+.red, .blue, .grey{
+	margin: 30px;
+
+	border: 0px solid;
+	border-radius: 10px;
+	width: 300px;
+	height: 300px;
+	
+}
+
+.red{
+	background-color: #E83726;
+}
+
+.grey{
+	background-color: #ABABAB;
+}
+
+.blue{
+	background-color: #263AE8;
+}
