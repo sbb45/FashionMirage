@@ -1,0 +1,367 @@
+h1,h2,h3,h4{
+	margin: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	line-height: 1.55;
+}
+a{
+	font-family: ProximaNova-Bold;
+	text-decoration: none;
+	color: white;
+}
+.container{
+	width: 100%;
+	max-width: calc(1800 * 100vw / 1920);
+	margin: 0 auto;
+}
+header{
+	text-transform: uppercase;
+	background: url("img/index_bg.png");
+	height: calc(1043 * 100vw / 1920);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+/*ШАПКА*/
+.header_nav{
+	padding-top: calc(20 * 100vw / 1920);
+	display: flex;
+}
+.header_nav_center{
+	font-size: calc(15 * 100vw / 1920);
+	margin: 0 auto;
+	text-align: center;
+}
+.header_nav_center a{
+	display: inline-block;
+	margin-left: calc(50 * 100vw / 1920);
+}
+.header_menu{
+	width: calc(33 * 100vw / 1920);
+}
+.header_logo{
+	width: calc(212 * 100vw / 1920);
+}
+.header_info{
+	width: calc(23 * 100vw / 1920);
+}
+/*Начальная страница*/
+.header_title_box{
+	margin-top: calc(270 * 100vw / 1920);
+	display: flex;
+	flex-direction: column;
+	font-family:ProximaNova-Bold;
+	align-items:center;
+ 	justify-content: center;
+}
+
+.header_title_wd{
+	letter-spacing: 1vw;
+	font-family:ProximaNova-Bold;
+	color: #bea67c;
+	font-size: calc(140 * 100vw / 1920);
+}
+
+.header_title_scroll{
+	font-size: calc(16 * 100vw / 1920);
+	margin-top: calc(300 * 100vw / 1920);
+
+}
+.header_scroll{
+	margin-top: calc(340 * 100vw / 1920);
+}
+.arrow-down {
+	margin: calc(20 * 100vw / 1920);
+}
+.arrow-down span {
+    display: flex;
+    width: calc(20 * 100vw / 1920);
+    height: calc(20 * 100vw / 1920);
+    border-bottom: calc(5 * 100vw / 1920) solid white;
+    border-right: calc(5 * 100vw / 1920) solid white;
+    margin: calc(-8 * 100vw / 1920);
+    animation: arrow-down 2s infinite;
+}
+.arrow-down span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(calc(-10 * 100vw / 1920),calc(-10 * 100vw / 1920));
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(calc(10 * 100vw / 1920),calc(10 * 100vw / 1920));
+    }
+}
+/*Информационная страница*/
+.info{
+	background: white;
+}
+.info_container{
+	padding-top: calc(150 * 100vw / 1920);;
+	width: 100%;
+	max-width: calc(1400 * 100vw / 1920);
+	margin: 0 auto;
+}
+.info_container img{
+	width: calc(616 * 100vw / 1920);
+}
+/*первое фото со столом*/
+.info_furniture{
+	margin-bottom: calc(200 * 100vw / 1920);
+	height: calc(400 * 100vw / 1920);
+}
+.text{
+	padding: calc(96 * 100vw / 1920) 0;
+}
+.info_title{
+	text-transform: uppercase;
+	font-size: calc(48 * 100vw / 1920);
+	font-family: ProximaNova-Bold;
+	padding-bottom: calc(20 * 100vw / 1920);
+}
+.info_description{
+	width: calc(410 * 100vw / 1920);
+	font-size: calc(15 * 100vw / 1920);
+	font-family: ProximaNova-Regular;
+	padding-bottom: calc(15 * 100vw / 1920);
+}
+.info_btn_furniture{
+	text-transform: uppercase;
+	margin-top: calc(40 * 100vw / 1920);
+	margin-left: calc(201 * 100vw / 1920);
+	font-size: calc(14 * 100vw / 1920);
+	font-family: ProximaNova-Bold;
+	color: black;
+}
+.black_lines_furniture{
+	height: calc(18 * 100vw / 1920);
+	margin-right: calc(50 * 100vw / 1920);
+	margin-top: calc(35 * 100vw / 1920);
+	padding-bottom: calc(16 * 100vw / 1920);
+}
+.gold_lines_furniture{
+	height: calc(8 * 100vw / 1920);
+	margin-left: calc(107 * 100vw / 1920);
+	margin-right: calc(50 * 100vw / 1920);
+	padding-bottom: calc(4 * 100vw / 1920);
+}
+/*второе фото со столом*/
+.black_lines_decor{
+	height: calc(18 * 100vw / 1920);
+	margin-left: calc(220 * 100vw / 1920);
+	margin-top: calc(35 * 100vw / 1920);
+	padding-bottom: calc(16 * 100vw / 1920);
+}
+.gold_lines_decor{
+	margin-left: calc(78 * 100vw / 1920);
+	height: calc(8 * 100vw / 1920);
+	padding-bottom: calc(4 * 100vw / 1920);
+}
+.text_decor{
+	float: right;
+	padding: calc(96 * 100vw / 1920) 0;
+}
+.info_btn_decor{
+	text-transform: uppercase;
+	margin-top: calc(40 * 100vw / 1920);
+	font-size: calc(14 * 100vw / 1920);
+	font-family: ProximaNova-Bold;
+	color: black;
+}
+.info_decor{
+	height: calc(400 * 100vw / 1920);
+}
+/*три видео информации*/
+.info_quality{
+	text-align: center;
+	height: calc(650 * 100vw / 1920);
+}
+.quality_title{
+	text-transform: uppercase;
+	font-family: ProximaNova-Bold;
+	font-size: calc(48 * 100vw / 1920);
+}
+.quality_description{
+	max-width: calc(580 * 100vw / 1920);
+	font-family: ProximaNova-Regular;
+	font-size: calc(15 * 100vw / 1920);
+}
+.quality_line{
+	width: calc(44 * 100vw / 1920);
+	height: calc(2 * 100vw / 1920); 
+	margin:calc(20 * 100vw / 1920) 0;
+}
+.vert_line{
+	margin: calc(78 * 100vw / 1920) 0;
+	display: block;
+    margin-left: auto;
+}
+.info_quality_video_block{
+	padding-top: calc(40 * 100vw / 1920);
+	display: grid;
+ 	grid-template-columns: max-content max-content max-content;
+ 	align-items: center;
+ 	justify-content: space-evenly;
+}
+.info_quality_video span{
+	font-family: ProximaNova-Regular;
+	font-size: calc(15 * 100vw / 1920);
+	display: grid;
+	justify-items: center;
+}
+.info_quality_video span img{
+	width: calc(277 * 100vw / 1920);
+  	height: auto;
+}
+/*Видео*/
+.video_design{
+	background: url("img/videos.png");
+	height: calc(916 * 100vw / 1920);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.video_container{
+	width: 100%;
+	max-width: calc(1800 * 100vw / 1920);
+	margin: 0 auto;
+}
+
+.video_design_box_text{
+	padding-left: calc(200 * 100vw / 1920);
+	padding-top: calc(300 * 100vw / 1920);
+
+}
+.video_design_title{
+	line-height: 1.2em;
+	width: calc(500 * 100vw / 1920);
+	font-family: ProximaNova-Bold;
+	text-transform:uppercase;
+	font-size: calc(48 * 100vw / 1920);
+	color: #BEA67C;
+	padding-bottom: calc(44 * 100vw / 1920);
+}
+.video_design_description{
+	width: calc(430 * 100vw / 1920);
+	font-family: ProximaNova-Regular;
+	color: white;
+	font-size: calc(15 * 100vw / 1920);
+	padding-bottom: calc(44 * 100vw / 1920);
+}
+.video_design_btn{
+	font-family: ProximaNova-Bold;
+	margin-left: calc(201 * 100vw / 1920);
+	padding: calc(15 * 100vw / 1920) calc(60 * 100vw / 1920);
+	text-transform: uppercase;
+	border: solid calc(1 * 100vw / 1920) white;
+	font-size: calc(14 * 100vw / 1920);
+}
+.white_lines_video{
+	height: calc(18 * 100vw / 1920);
+	margin-right: calc(50 * 100vw / 1920);
+	margin-top: calc(25 * 100vw / 1920);
+	padding-bottom: calc(16 * 100vw / 1920);
+}
+.gold_lines_video{
+	height: calc(18 * 100vw / 1920);
+	margin-left: calc(107 * 100vw / 1920);
+	margin-right: calc(50 * 100vw / 1920);
+	margin-top: calc(10 * 100vw / 1920);
+	padding-bottom: calc(16 * 100vw / 1920);
+}
+/*О нас*/
+.about{
+	height: calc(600 * 100vw / 1920);
+	background: white;
+}
+.about_container{
+	padding-top: calc(100 * 100vw / 1920);
+	width: 100%;
+	max-width: calc(1400 * 100vw / 1920);
+	margin: 0 auto;
+}
+.about_title{
+	text-transform: uppercase;
+	color: black;
+	font-family: ProximaNova-Bold;
+	font-size:calc(48 * 100vw / 1920);
+}
+.about_description{
+	margin: calc(10 * 100vw / 1920) 0;
+	width: calc(400 * 100vw / 1920);
+	color: black;
+	font-family: ProximaNova-Regular;
+	font-size:calc(15 * 100vw / 1920);
+}
+.about_btn{
+	text-transform: uppercase;
+	color: black;
+	font-family: ProximaNova-Bold;
+	font-size:calc(15 * 100vw / 1920);
+}
+.about_text{
+	margin-left: calc(150 * 100vw / 1920);
+	float: left;
+	padding: calc(96 * 100vw / 1920) 0;
+}
+.about_img{
+	width: calc(590 * 100vw / 1920);
+}
+/*футер*/
+.footer_container{
+	width: 100%;
+	padding-top: calc(50 * 100vw / 1920);
+	max-width: calc(1600 * 100vw / 1920);
+	margin: 0 auto;
+	display: flex;
+}
+.footer_logo{
+	width: calc(212 * 100vw / 1920);;
+	margin: 0 auto;
+}
+footer{
+	height: calc(100 * 100vw / 1920);
+}
+.footer_data{
+	width: calc(200 * 100vw / 1920);
+	text-transform: uppercase;
+	font-family: ProximaNova-Regular; 
+	font-size: calc(16 * 100vw / 1920);
+	color: #C4C4C4;
+}
+.footer_auther{
+	width: calc(200 * 100vw / 1920);
+	font-family: ProximaNova-Regular; 
+	font-size: calc(16 * 100vw / 1920);
+	color: #C4C4C4;
+}
+
+
+@font-face {
+	font-family: 'ProximaNova-Bold'; 
+	src: local('ProximaNova-Bold'),
+		url(/fonts/ProximaNova-Bold.ttf); 
+}
+@font-face {
+	font-family: 'ProximaNova-Regular'; 
+	src: local('ProximaNova-Regular'),
+		url(/fonts/ProximaNova-Regular.ttf); 
+}
