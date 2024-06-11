@@ -1,0 +1,64 @@
+@media (max-width: 1170px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container {
+        padding: 0 49px 0 49px;
+        
+    }
+    .categories__block {
+        grid-template: repeat(3,1fr) / repeat(2,1fr);
+        grid-gap:40px;
+        justify-items: center; 
+}
+    .collection__block {
+        grid-template-columns: repeat(2, auto);
+        grid-gap:40px;
+    }
+    .collection__card_hide{
+        display: block;
+    }
+    .invitation-content{
+        background-image: none;
+        height: max-content;
+    }
+    .auction__row{
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .auction__content{
+        width: 100%;
+    }
+    .auction-img{
+        display: none;
+    }
+    
+    .btn-cirсle__menu{
+        display: block;
+        z-index: 10;
+    }
+    .nav__list{
+        display: none;
+    }
+    .nav__list.open{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 40px;
+        align-items: start;
+        padding: 20px 50px;
+        width: 100%;
+    }
+    .nav__list a{
+        font-size: 60px;
+    }
+    
+
+}
