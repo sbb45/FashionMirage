@@ -1,0 +1,20 @@
+<svg width="1920" height="463" viewBox="0 0 1920 463" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_94_17" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-82" y="0" width="2002" height="463">
+<rect x="-82" width="2002" height="463" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_94_17)">
+<mask id="mask1_94_17" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="130" width="646" height="333">
+<rect width="646" height="333" transform="matrix(1 0 0 -1 0 463)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_94_17)">
+<path d="M222.5 397C467 314.999 623.5 -56.5001 534.5 327.784C445.5 712.069 534.5 471.784 534.5 471.784C534.5 471.784 203 776.999 74.4999 590C-54.0002 403 -22.0002 479 222.5 397Z" fill="#FF2D2D"/>
+</g>
+<mask id="mask2_94_17" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1274" y="130" width="646" height="333">
+<rect x="1920" y="463" width="646" height="333" transform="rotate(180 1920 463)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_94_17)">
+<path d="M1697.5 397C1453 314.999 1296.5 -56.5001 1385.5 327.784C1474.5 712.069 1385.5 471.784 1385.5 471.784C1385.5 471.784 1717 776.999 1845.5 590C1974 403 1942 479 1697.5 397Z" fill="#FF2D2D"/>
+</g>
+<ellipse cx="960" cy="562.5" rx="616" ry="558.5" fill="#FF2D2D"/>
+</g>
+</svg>
